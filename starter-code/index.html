@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Public+Sans&display=swap"
+		rel="stylesheet">
+
+	<title>Frontend Mentor | Minimalist Portfolio</title>
+</head>
+
+<body>
+<div class="container">
+	
+		<nav>
+			<div class="logo">
+				<img src="./images/logo.svg" alt="Logo">
+			</div>
+			<div class="nav-links">
+				<a class="active-link" href="#">HOME</a>
+				<a href="portfolio.html">PORTFOLIO</a>
+				<a href="contact.html">CONTACT ME</a>
+			</div>
+			<a class="hamburger" href="#mobile-menu">
+				<img src="./images/icons/hamburger.svg" alt="menu">
+		</a>
+		<div id="mobile-menu" class="mobile-menu">
+			<a class="close" href=""><img src="./images/icons/close.svg" alt="" srcset=""></a>
+			<a class="active-link" href="#">HOME</a>
+			<a  href="portfolio.html">PORTFOLIO</a>
+			<a href="contact.html">CONTACT ME</a>
+		</div>
+		</nav>
+
+
+		<div class="hero">
+			<div class="hero-content">
+				<h1> Hey, I’m Alex Spencer and I love building beautiful websites</h1>
+				<a href="#about">
+					<img src="./images/icons/down-arrows.svg" alt="Down arrow">
+					About Me
+				</a>
+			</div>
+		</div>
+
+		<div class="hero-mobile">
+			
+		</div>
+
+		<div class="hero-content-mobile">
+			<h1> Hey, I’m Alex Spencer and I love building beautiful websites</h1>
+			<a href="#about">
+				<img src="./images/icons/down-arrows.svg" alt="Down arrow">
+				About Me
+			</a>
+		</div>
+
+ <div class="about" id="about">
+			<div class="about-img">
+				<picture>
+					<source media="(min-width: 1000px)" srcset="./images/homepage/desktop/image-homepage-profile@2x.jpg">
+					<source media="(min-width: 735px)" srcset="./images/homepage/tablet/image-homepage-profile@2x.jpg">
+					<source media="(min-width: 280px)" srcset="./images/homepage/mobile/image-homepage-profile.jpg">
+					<img src="" alt="Alex Spencer">
+				</picture>
+			</div>
+			<div class="about-text">
+				<h2>About Me</h2>
+				<p>
+					I’m a junior front-end developer looking for a new role in an exciting company.
+					I focus on writing accessible HTML, using modern CSS practices and writing clean
+					JavaScript. When writing JavaScript code, I mostly use React, but I can adapt to
+					whatever tools are required. I’m based in London, UK, but I’m happy working remotely
+					and have experience in remote teams. When I’m not coding, you’ll find me outdoors.
+					I love being out in nature whether that’s going for a walk, run or cycling. I’d love
+					you to check out my work.</p>
+				<a href="portfolio.html">Go to Portfolio</a>
+			</div>
+		</div>
+
+		
+		<div class="contact-section">
+			<div class="contact-heading">
+				<h2>Interested in doing a project together?</h2>
+			</div>
+			<div class="contact-link">
+				<div class="bar"></div>
+			</div>
+			<div class="contact-link-button"><a href="contact.html">Contact Me</a></div>
+		</div>
+	  </div>
+
+</div>
+
+	<footer>
+		<div class="footer-container">
+			<div class="footer-logo">
+				<img src="./images/footer-logo.svg" alt="Logo">
+			</div>
+			<div class="footer-links">
+				<a href=""><img src="./images/icons/github.svg" alt="Github Logo" srcset=""></a>
+				<a href=""><img src="./images/icons/twitter.svg" alt="Twitter Logo" srcset=""></a>
+				<a href=""><img src="./images/icons/linkedin.svg" alt="Linkedin Logo" srcset=""></a>
+				
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
